@@ -1,9 +1,9 @@
 import time
-
 from pages.base_page import BasePage
+from conftest import driver
 
 
 def test(driver):
-    page = BasePage(driver, "google.com")
+    page = BasePage(driver, "https:\\google.com")
     page.open()
     time.sleep(3)
