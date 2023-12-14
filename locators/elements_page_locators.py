@@ -9,6 +9,8 @@ class TabElementsPageLocators:
     TAB_LOGIN = (By.CSS_SELECTOR, "div[id='t-btn-tab-login']")
     TAB_LS = (By.CSS_SELECTOR, "div[id='t-btn-tab-ls']")
     TEXT_SPAN = (By.CSS_SELECTOR, "span[class='rt-input__placeholder']")
+    FILLED_TEXT_SPAN = (By.CSS_SELECTOR, "span[class='rt-input__placeholder rt-input__placeholder--top']")
+
     '''
     FIRST_NAME = (By.CSS_SELECTOR, "input[name='firstName']")
     LAST_NAME = (By.CSS_SELECTOR, "input[name='lastname']")
